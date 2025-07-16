@@ -1,0 +1,11 @@
+sudo chown -R www-data:www-data /home/ubuntu/bloggingtemplate/bloggingtemplate
+sudo chmod -R 755 /home/ubuntu/bloggingtemplate/bloggingtemplate
+chmod o+x /home
+chmod o+x /home/ubuntu
+chmod o+x /home/ubuntu/bloggingtemplate
+sudo nginx -t
+sudo nginx -s reload
+
+
+
+you 
