@@ -62,8 +62,8 @@ events {
 }
 
 http {
-    
-    include       /etc/nginx/mime.types;
+
+    include       /etc/nginx/mime.types;       # for css handling
 
 
     server {
@@ -74,9 +74,7 @@ http {
 
         index index.html;
 
-        location / {
-            try_files $uri $uri/ =404;
-        }
+       
     }
 }
 ```
