@@ -8,4 +8,4 @@ sudo nginx -s reload
 
 
 
-you 
+worker_processes auto;
