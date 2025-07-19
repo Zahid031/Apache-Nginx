@@ -1,0 +1,8 @@
+*.pdf
+*.gz
+*.zip
+*.tar
+*.tar.gz
+nginx-1.29.0
+nginx-1.29.0.tar.gz
+*.log
